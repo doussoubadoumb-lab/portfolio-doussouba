@@ -1,0 +1,88 @@
+.skills {
+  padding: 100px 8vw;
+  background: #0A1929;
+  color: #E8EEF2;
+  border-top: 1px solid #16283B;
+}
+
+.skills__eyebrow {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  color: #C9814A;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+
+.skills__title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.8rem, 3.2vw, 2.4rem);
+  line-height: 1.25;
+  margin-bottom: 56px;
+  color: #F4F7FA;
+  max-width: 640px;
+}
+
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.skills__card {
+  background: #0E2233;
+  border: 1px solid #2C4257;
+  border-radius: 8px;
+  padding: 28px;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.skills__card:hover {
+  border-color: #5EEAD4;
+  transform: translateY(-3px);
+}
+
+.skills__card-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #F4F7FA;
+  margin-bottom: 18px;
+}
+
+.skills__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills__tag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  padding: 7px 14px;
+  border-radius: 20px;
+  border: 1px solid;
+  white-space: nowrap;
+}
+
+.skills__tag--copper {
+  color: #C9814A;
+  border-color: #4A3524;
+  background: rgba(201, 129, 74, 0.08);
+}
+
+.skills__tag--teal {
+  color: #5EEAD4;
+  border-color: #1F4A45;
+  background: rgba(94, 234, 212, 0.08);
+}
+
+@media (max-width: 720px) {
+  .skills {
+    padding: 70px 6vw;
+  }
+
+  .skills__grid {
+    grid-template-columns: 1fr;
+  }
+}
