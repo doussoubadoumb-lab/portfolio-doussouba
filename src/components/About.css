@@ -1,0 +1,244 @@
+.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+  padding: 100px 8vw;
+  background: #0A1929;
+  color: #E8EEF2;
+  flex-wrap: wrap;
+  border-top: 1px solid #16283B;
+}
+
+.about__text {
+  flex: 1 1 460px;
+  max-width: 560px;
+}
+
+.about__eyebrow {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  color: #C9814A;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+
+.about__title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.8rem, 3.2vw, 2.4rem);
+  line-height: 1.25;
+  margin-bottom: 24px;
+  color: #F4F7FA;
+}
+
+.about__body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: #93A9BF;
+}
+
+.about__datasheet {
+  flex: 1 1 320px;
+  max-width: 380px;
+  background: #0E2233;
+  border: 1px solid #2C4257;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.datasheet__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background: #16283B;
+  border-bottom: 1px solid #2C4257;
+}
+
+.datasheet__tag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: #5EEAD4;
+  letter-spacing: 0.05em;
+}
+
+.datasheet__name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #F4F7FA;
+}
+
+.datasheet__specs {
+  margin: 0;
+  padding: 4px 0;
+}
+
+.datasheet__row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #16283B;
+}
+
+.datasheet__row:last-child {
+  border-bottom: none;
+}
+
+.datasheet__row dt {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  color: #C9814A;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.datasheet__row dd {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.95rem;
+  color: #E8EEF2;
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  .about {
+    flex-direction: column;
+    padding: 70px 6vw;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .about__datasheet {
+    max-width: 100%;
+  }
+
+  .datasheet__row {
+    text-align: left;
+  }
+}
+.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+  padding: 100px 8vw;
+  background: #0A1929;
+  color: #E8EEF2;
+  flex-wrap: wrap;
+  border-top: 1px solid #16283B;
+}
+
+.about__text {
+  flex: 1 1 460px;
+  max-width: 560px;
+}
+
+.about__eyebrow {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  color: #C9814A;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+
+.about__title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.8rem, 3.2vw, 2.4rem);
+  line-height: 1.25;
+  margin-bottom: 24px;
+  color: #F4F7FA;
+}
+
+.about__body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: #93A9BF;
+}
+
+.about__datasheet {
+  flex: 1 1 320px;
+  max-width: 380px;
+  background: #0E2233;
+  border: 1px solid #2C4257;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.datasheet__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background: #16283B;
+  border-bottom: 1px solid #2C4257;
+}
+
+.datasheet__tag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.8rem;
+  color: #5EEAD4;
+  letter-spacing: 0.05em;
+}
+
+.datasheet__name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #F4F7FA;
+}
+
+.datasheet__specs {
+  margin: 0;
+  padding: 4px 0;
+}
+
+.datasheet__row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #16283B;
+}
+
+.datasheet__row:last-child {
+  border-bottom: none;
+}
+
+.datasheet__row dt {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  color: #C9814A;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.datasheet__row dd {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.95rem;
+  color: #E8EEF2;
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  .about {
+    flex-direction: column;
+    padding: 70px 6vw;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .about__datasheet {
+    max-width: 100%;
+  }
+
+  .datasheet__row {
+    text-align: left;
+  }
+}
