@@ -10,7 +10,7 @@ const nodes = [
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       <div className="hero__content">
         <p className="hero__eyebrow">{'// Doussouba Doumbia'}</p>
         <h1 className="hero__title">
