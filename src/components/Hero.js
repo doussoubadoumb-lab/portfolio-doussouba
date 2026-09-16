@@ -2,10 +2,10 @@ import React from 'react';
 import './Hero.css';
 
 const nodes = [
-  { id: 'robotique', label: 'Robotique', x: 60, y: 40 },
-  { id: 'automatisme', label: 'Automatisme', x: 260, y: 20 },
+  { id: 'automatisme', label: 'Automatisme', x: 60, y: 40 },
+  { id: 'maintenance', label: 'Maintenance', x: 260, y: 20 },
   { id: 'energie', label: 'Énergie', x: 300, y: 160 },
-  { id: 'embarque', label: 'Embarqué', x: 80, y: 190 },
+  { id: 'robotique', label: 'Robotique', x: 80, y: 190 },
 ];
 
 function Hero() {
@@ -17,9 +17,9 @@ function Hero() {
           Je conçois des systèmes<br />qui bougent, mesurent<br />et s'automatisent.
         </h1>
         <p className="hero__subtitle">
-          Étudiante en Électronique, Énergie &amp; Automatisme (L3 EEA — Université Jean Monnet),
-          à la recherche d'une alternance dès septembre 2026. Robotique, automatisme industriel,
-          électronique embarquée, capteurs &amp; IoT.
+          Étudiante en L3 SPI (Sciences Pour l'Ingénieur), parcours EEA — Électronique, Énergie,
+          Automatique — à l'Université Jean Monnet, à la recherche d'une alternance dès septembre 2026.
+          Automatisme industriel, maintenance électrotechnique, robotique, électronique embarquée.
         </p>
         <div className="hero__actions">
           <a href="#projets" className="btn btn--primary">Voir mes projets</a>
@@ -62,3 +62,4 @@ function Hero() {
 }
 
 export default Hero;
+
