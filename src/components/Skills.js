@@ -6,7 +6,7 @@ const categories = [
     id: 'langages',
     title: 'Langages & Programmation',
     accent: 'copper',
-    items: ['C', 'C++', 'Python', 'Matlab'],
+    items: ['C', 'C++', 'Python', 'Spyder', 'Matlab'],
   },
   {
     id: 'automatisme',
@@ -15,16 +15,34 @@ const categories = [
     items: ['Ladder / Grafcet', 'ClassicLadder', 'Arduino', 'Automates programmables'],
   },
   {
+    id: 'maintenance',
+    title: 'Électrotechnique & Maintenance',
+    accent: 'copper',
+    items: ['Circuits & mesures électriques', 'Diagnostic de pannes', 'Diagramme d\u2019Ishikawa', 'Méthode des 5 Pourquoi'],
+  },
+  {
+    id: 'amelioration',
+    title: 'Amélioration continue',
+    accent: 'teal',
+    items: ['5S', 'Objectifs SMART', 'Analyse des causes racines'],
+  },
+  {
     id: 'robotique',
     title: 'Robotique & Embarqué',
     accent: 'copper',
     items: ['Robot Niryo', 'Capteurs & IoT', 'Détection infrarouge', 'Séquences automatisées'],
   },
   {
-    id: 'outils',
-    title: 'Conception & Méthodes',
+    id: 'cao-data',
+    title: 'CAO & Data',
     accent: 'teal',
-    items: ['SolidWorks', '5S', 'Ishikawa / 5 Pourquoi', 'SMART'],
+    items: ['SolidWorks', 'Power BI', 'Excel avancé (TCD, tableaux de bord)'],
+  },
+  {
+    id: 'bureautique',
+    title: 'Bureautique',
+    accent: 'copper',
+    items: ['Word', 'Excel', 'PowerPoint'],
   },
 ];
 
