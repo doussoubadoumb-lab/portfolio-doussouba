@@ -2,8 +2,8 @@ import React from 'react';
 import './About.css';
 
 const specs = [
-  { label: 'Formation', value: 'L3 EEA — Université Jean Monnet' },
-  { label: 'Spécialité', value: 'Automatisme · Robotique · Embarqué' },
+  { label: 'Formation', value: "L3 SPI, parcours EEA — Université Jean Monnet" },
+  { label: 'Spécialité', value: 'Automatisme · Maintenance industrielle · Robotique' },
   { label: 'Disponibilité', value: 'Alternance dès septembre 2026' },
   { label: 'Mobilité', value: 'Toute la France' },
 ];
@@ -17,11 +17,12 @@ function About() {
           Du circuit imprimé à la ligne de code, je conçois pour que ça marche.
         </h2>
         <p className="about__body">
-          Je suis en L3 Électronique, Énergie &amp; Automatisme après un parcours qui
-          m'a menée du pilotage d'un bras robotisé (projet Niryo, séquences automatisées,
-          détection infrarouge) à l'analyse de flux logistiques en entreprise. Ce qui
-          m'anime : comprendre comment un système fonctionne réellement, puis le rendre
-          plus fiable, plus intelligent, ou tout simplement meilleur.
+          Je suis en L3 Sciences Pour l'Ingénieur (SPI), parcours EEA — Électronique, Énergie,
+          Automatique — après un parcours qui m'a menée du pilotage d'un bras robotisé (projet Niryo,
+          séquences automatisées, détection infrarouge) au diagnostic de pannes en environnement
+          industriel (diagramme d'Ishikawa, méthode des 5 Pourquoi, 5S) lors d'un stage en génie
+          industriel. Ce qui m'anime : comprendre comment un système fonctionne réellement, puis le
+          rendre plus fiable, plus performant, ou tout simplement meilleur.
         </p>
       </div>
 
