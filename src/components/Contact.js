@@ -27,11 +27,11 @@ function Contact() {
     <section className="contact" id="contact">
       <p className="contact__eyebrow">{'// Contact'}</p>
       <h2 className="contact__title">
-        Une alternance à pourvoir, un projet à discuter ?
+        Un stage, une alternance, un projet à discuter ?
       </h2>
       <p className="contact__body">
-        Je suis à la recherche d'une alternance de 12 à 24 mois dès septembre 2026,
-        ouverte à toute la France. N'hésite pas à me contacter directement.
+        Je recherche un stage de deux mois entre mars et juin 2027, ou une alternance
+        dès que possible, partout en France. N'hésitez pas à me contacter directement.
       </p>
 
       <div className="contact__links">
