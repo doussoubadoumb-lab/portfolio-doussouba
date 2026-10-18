@@ -4,7 +4,7 @@ import './About.css';
 const specs = [
   { label: 'Formation', value: "L3 SPI, parcours EEA — Université Jean Monnet" },
   { label: 'Spécialité', value: 'Automatisme · Maintenance industrielle · Robotique' },
-  { label: 'Disponibilité', value: 'Alternance dès septembre 2026' },
+  { label: 'Disponibilité', value: 'Stage (mars–juin 2027) ou alternance' },
   { label: 'Mobilité', value: 'Toute la France' },
 ];
 
