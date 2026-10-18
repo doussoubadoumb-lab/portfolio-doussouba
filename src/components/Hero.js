@@ -18,11 +18,11 @@ function Hero() {
         </h1>
         <p className="hero__subtitle">
           Étudiante en L3 SPI (Sciences Pour l'Ingénieur), parcours EEA — Électronique, Énergie,
-          Automatique — à l'Université Jean Monnet, à la recherche d'une alternance dès septembre 2026.
+          Automatique — à l'Université Jean Monnet, à la recherche d'un stage de mars à juin 2027 ou d'une alternance.
           Automatisme industriel, maintenance électrotechnique, robotique, électronique embarquée.
         </p>
         <div className="hero__actions">
-          <a href="#projets" className="btn btn--primary">Voir mes projets</a>
+          <a href="#projects" className="btn btn--primary">Voir mes projets</a>
           <a href="#contact" className="btn btn--ghost">Me contacter</a>
         </div>
       </div>
@@ -62,4 +62,3 @@ function Hero() {
 }
 
 export default Hero;
-
