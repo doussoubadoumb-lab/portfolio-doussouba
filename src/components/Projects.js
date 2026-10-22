@@ -40,8 +40,18 @@ const projects = [
     video: null,
   },
   {
-    id: 'denniba',
+    id: 'carnet',
     tag: 'PROJ-05',
+    title: 'Carnet de bord – IUT de Roanne',
+    description:
+      "Digitalisation du carnet de bord papier des véhicules de l'IUT : enregistrement des missions (conducteur, passagers, trajets, horaires, kilométrage), réservation des véhicules le jour même et suivi de leur disponibilité. Site responsive, utilisable sur téléphone.",
+    stack: ['PHP', 'MySQL', 'JavaScript'],
+    video: null,
+    link: 'https://carnet-iut-roanne.ct.ws',
+  },
+  {
+    id: 'denniba',
+    tag: 'PROJ-06',
     title: 'Den ni Ba',
     description:
       "Site e-commerce pour une boutique de vêtements bébé, avec gestion des produits, upload d'images côté admin et déploiement en production.",
@@ -50,7 +60,7 @@ const projects = [
   },
   {
     id: 'portfolio',
-    tag: 'PROJ-06',
+    tag: 'PROJ-07',
     title: 'Ce portfolio',
     description:
       "Conçu et codé de A à Z en React, avec un thème inspiré des circuits imprimés et des animations SVG faites main.",
@@ -116,6 +126,12 @@ function Projects() {
                 <span className="projects__video-icon" aria-hidden="true">▶</span>
                 Voir la vidéo
               </button>
+            )}
+            {p.link && (
+              <a className="projects__video-btn" href={p.link} target="_blank" rel="noopener noreferrer">
+                <span className="projects__video-icon" aria-hidden="true">↗</span>
+                Voir le site
+              </a>
             )}
           </div>
         ))}
